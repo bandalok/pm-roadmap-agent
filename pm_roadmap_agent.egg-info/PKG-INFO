@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: pm-roadmap-agent
+Version: 0.1.0
+Summary: Agentic AI pipeline that turns product feedback into a living roadmap brief
+Author: Alok Band
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.32
+Requires-Dist: pandas>=2.0
+Requires-Dist: requests>=2.31
+Requires-Dist: anthropic>=0.40
+Requires-Dist: openai>=1.30
+Provides-Extra: test
+Requires-Dist: pytest>=8.0; extra == "test"
+Dynamic: license-file
