@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:im="http://itunes.apple.com/rss">
+  <title>Test App — Customer Reviews</title>
+  <entry>
+    <title>Test App</title>
+    <content type="text">A great test app.</content>
+    <id>111</id>
+  </entry>
+  <entry>
+    <title>Crashes constantly</title>
+    <content type="text">The app crashed three times today. Very frustrating.</content>
+    <im:rating>1</im:rating>
+    <im:name>reviewer_one</im:name>
+    <id>222</id>
+    <updated>2026-09-05T10:00:00-07:00</updated>
+  </entry>
+  <entry>
+    <title>Love it</title>
+    <content type="text">Best music app I have used in years.</content>
+    <im:rating>5</im:rating>
+    <im:name>reviewer_two</im:name>
+    <id>333</id>
+    <updated>2026-09-06T11:00:00-07:00</updated>
+  </entry>
+</feed>
