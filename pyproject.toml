@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pm-roadmap-agent"
+version = "0.1.0"
+description = "Agentic AI pipeline that turns product feedback into a living roadmap brief"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Alok Band" }]
+dependencies = [
+    "streamlit>=1.32",
+    "pandas>=2.0",
+    "requests>=2.31",
+    "anthropic>=0.40",
+    "openai>=1.30",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["pm_roadmap_agent*"]
