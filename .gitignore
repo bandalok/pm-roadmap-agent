@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Data & outputs (local runs)
+*.db
+*.db-journal
+briefs/
+demo-output/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+pm_roadmap_agent.egg-info/
+dist/
+build/
