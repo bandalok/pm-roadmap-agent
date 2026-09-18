@@ -1,0 +1,11 @@
+# Runtime
+streamlit>=1.32
+pandas>=2.0
+requests>=2.31
+
+# LLM providers (install the one(s) you use)
+anthropic>=0.40
+openai>=1.30
+
+# Tests
+pytest>=8.0
