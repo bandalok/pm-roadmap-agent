@@ -181,4 +181,4 @@ This is a personal open-source project and a portfolio piece — issues and PRs 
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — Copyright (c) 2026 Alok Band. See [LICENSE](LICENSE).
