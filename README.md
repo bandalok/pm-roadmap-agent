@@ -1,3 +1,5 @@
+[![CI](https://github.com/bandalok/pm-roadmap-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/bandalok/pm-roadmap-agent/actions/workflows/ci.yml)
+
 # PM Roadmap Agent
 
 An agentic AI system that turns raw product feedback into a living roadmap brief.
